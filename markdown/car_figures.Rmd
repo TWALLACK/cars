@@ -323,7 +323,7 @@ Here are the top five towns where Mercedes is the most popular:
 Here are the top five towns for BMWs:
 `r kable(top_towns_bmw)`
 
-Here are the top five towns for Tesla:
+Here are the top 10 towns for Tesla:
 `r kable(top_towns_tesla)`
 
 

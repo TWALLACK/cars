@@ -1,4 +1,5 @@
-<h1 align="center">What cars are popular in different towns in Massachustts<h1>
+</h2 align="center">What cars are popular in different towns in Massachustts</h2>
+
 
 
 The Massachusetts Registry of Motor Vehicles provided the Boston Globe with data in July 2018 showing what kind of private passenger vehicles are registered in each town in Massachusetts
@@ -26,3 +27,11 @@ Ranking of all makes and models in every town:
 The script also saves some intermediate files that you can probably safely ignore:
 car_model.csv
 make_popular.csv
+
+Note:  The repo also includes a code sheet that the RMV provided with abreviations for most manufacturers.
+Unfortunately, it appears the RMV used a different set of codes for some older cars in the database
+One possible way to improve the analysis would be to obtain the list of older codes and convert them into the current ones
+so all the cars would be listed under a single name (rather than two different ones).
+
+
+

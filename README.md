@@ -1,14 +1,15 @@
-"# nr-data-car-models" 
-
-The RMV provided data showing what types of cars are registered in each town and county (including make, model number, and number of each type).
-
-Billy Baker obtained this data for a feature story he is working on about what cars are popular in different towns.
+<h1 align="center">What cars are popular in different towns in Massachustts<h1>
 
 
-The original RMV file is titled:
-total active passenger plates for each county and town broken down by ma... (1).csv
+The Massachusetts Registry of Motor Vehicles provided the Boston Globe with data in July 2018 showing what kind of private passenger vehicles are registered in each town in Massachusetts
+(including make, model number, and number of each type).
 
-I wrote an R script that generated several CSVs to help Billy sort through the data, including:
+The Globe used the data for a <a href="http://apps.bostonglobe.com/metro/graphics/2018/09/cars-by-town/">story</a> that ran in September 2018.
+Todd Wallack wrangled the data. Billy Baker wrote the story. And Patrick Garvin creates the graphics and digital presentation.
+
+The RMarkdown file in this repository generates an HTML file with all the key statistics and facts used in the story (as well as a few maps).
+
+The R script  also generates the key stats, as well as several output files to help sort through the data, including:
 
 Top make and model in each city and town
 * top_car.csv	
@@ -22,7 +23,6 @@ Ranking of all makes and models in every town:
 * rank_make.csv
 * rank_models.csv
 
-
-I also saved some intermediate files that you can probable ignore:
+The script also saves some intermediate files that you can probably safely ignore:
 car_model.csv
 make_popular.csv

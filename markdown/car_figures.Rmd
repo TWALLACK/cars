@@ -217,7 +217,7 @@ mass <- mass %>% mutate_if(is.factor, as.character)
 
 There were `r formatC(sum(cars$total),format="d",big.mark=",")` private passenger cars and light-trucks registered in Massachusetts in 2018, according to data from the state Registry of Motor Vehicles.
 
-We used the data for a (http://apps.bostonglobe.com/metro/graphics/2018/09/cars-by-town/ "Boston Globe story.")
+We used the data for a [Boston Globe story.](http://apps.bostonglobe.com/metro/graphics/2018/09/cars-by-town/)
 Billy wrote the story. I analyzed the data. And Patrick Garvin created the graphics on the Boston Globe site.
 
 

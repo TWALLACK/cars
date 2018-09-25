@@ -5,7 +5,7 @@
 The Massachusetts Registry of Motor Vehicles provided the Boston Globe with data in July 2018 showing what kind of private passenger vehicles are registered in each town in Massachusetts
 (including make, model number, and number of each type).
 
-The Globe used the data for a [story]("http://apps.bostonglobe.com/metro/graphics/2018/09/cars-by-town/") that ran in September 2018.
+The Globe used the data for a [story](http://apps.bostonglobe.com/metro/graphics/2018/09/cars-by-town/) that ran in September 2018.
 Todd Wallack wrangled the data. Billy Baker wrote the story. And Patrick Garvin creates the graphics and digital presentation.
 
 The RMarkdown file in this repository generates an HTML file with all the key statistics and facts used in the story (as well as a few maps).
